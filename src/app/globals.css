@@ -14,6 +14,14 @@ body {
   --accentGray: #1f2937;
 }
 
+*::-webkit-scrollbar {
+  @apply w-2 bg-accent2/40 rounded-full;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply LightGradientBg rounded-full;
+}
+
 .GradientBg {
   @apply bg-gradient-to-r from-accent1 via-accent2 to-accent3;
 }
@@ -28,11 +36,15 @@ body {
 
 .GradientBorder {
   @apply relative border-2 border-transparent select-none;
-  background: linear-gradient(var(--primary) 0%, var(--primary) 100%) padding-box,
-    linear-gradient(90deg,
-      var(--accent1) 0%,
-      var(--accent2) 35%,
-      var(--accent3) 100%) border-box;
+  background: linear-gradient(var(--primary) 0%, var(--primary) 100%)
+      padding-box,
+    linear-gradient(
+        90deg,
+        var(--accent1) 0%,
+        var(--accent2) 35%,
+        var(--accent3) 100%
+      )
+      border-box;
 }
 
 .CardFooter {
