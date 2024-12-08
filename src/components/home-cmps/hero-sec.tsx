@@ -1,7 +1,6 @@
 import React from "react";
 import BlurDiv from "../global-cmp/blur-div";
 import DevButton from "../dev-components/dev-button";
-import Link from "next/link";
 import Image from "next/image";
 import TiltCard from "../global-cmp/tilt-card";
 import AnimateNumber from "../global-cmp/animate-number";
