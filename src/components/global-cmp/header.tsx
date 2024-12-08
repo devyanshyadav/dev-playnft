@@ -48,7 +48,7 @@ const Header = () => {
           />
           <span className="md:block hidden">Search</span>
         </DevButton>}>
-          <div className="p-5 w-[50vw] mt-5 ">
+          <div className="p-5 md:w-[50vw] mt-5 ">
             <DevInput placeholder="Move to the moon" icon={<Image
             src="assets/icons/search-line.svg"
             alt="search icon"

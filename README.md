@@ -25,7 +25,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/devyanshyadav/playNFT.git
+   git clone https://github.com/devyanshyadav/dev-playnft.git
    ```
 
 2. Navigate to the project directory:
